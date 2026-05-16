@@ -1,0 +1,79 @@
+[
+  {
+    "id": "benefit-street-garden",
+    "name": "Benefit Street Garden",
+    "latitude": 41.82668,
+    "longitude": -71.40179,
+    "weatherCategory": "Clear",
+    "descriptors": ["calm", "open", "reflective"],
+    "forecast": "Clear with a patient glow settling along the brick paths. The meter hears room for quiet recognition, as if strangers are becoming briefly legible to one another.",
+    "voiceCount": 18,
+    "iconKey": "sun"
+  },
+  {
+    "id": "india-point-lawn",
+    "name": "India Point Lawn",
+    "latitude": 41.81789,
+    "longitude": -71.39415,
+    "weatherCategory": "Windy",
+    "descriptors": ["restless", "bright", "alert"],
+    "forecast": "Windy with scattered surges of anticipation moving off the water. The meter detects quick changes in mood, but also a clean openness that keeps the feeling from closing in.",
+    "voiceCount": 27,
+    "iconKey": "breeze"
+  },
+  {
+    "id": "memorial-park-bench",
+    "name": "Memorial Park Bench",
+    "latitude": 41.82603,
+    "longitude": -71.40911,
+    "weatherCategory": "Overcast",
+    "descriptors": ["tired", "soft", "hopeful"],
+    "forecast": "Overcast with traces of tenderness still holding under the surface. The meter hears fatigue gathering in the shade, yet a warmer current keeps returning in small intervals.",
+    "voiceCount": 14,
+    "iconKey": "cloud"
+  },
+  {
+    "id": "college-hill-walk",
+    "name": "College Hill Walk",
+    "latitude": 41.82684,
+    "longitude": -71.40473,
+    "weatherCategory": "Drizzle",
+    "descriptors": ["hesitant", "gentle", "heavy"],
+    "forecast": "A light drizzle of feeling is moving through this corridor. The meter catches pauses, half-finished thoughts, and a softness that wants more time before it speaks plainly.",
+    "voiceCount": 9,
+    "iconKey": "mist"
+  },
+  {
+    "id": "waterplace-steps",
+    "name": "161 S Main St",
+    "latitude": 41.822691,
+    "longitude": -71.405362,
+    "weatherCategory": "Warming",
+    "descriptors": ["hopeful", "steady", "bright"],
+    "forecast": "Warming conditions are building near the river’s edge. The meter hears people leaning toward one another, with a low confidence that something gentler is beginning to hold.",
+    "voiceCount": 31,
+    "iconKey": "glow"
+  },
+  {
+    "id": "dexter-training-green",
+    "name": "Dexter Training Green",
+    "latitude": 41.81831,
+    "longitude": -71.42816,
+    "weatherCategory": "Stormy",
+    "descriptors": ["charged", "restless", "protective"],
+    "forecast": "Storm pressure is moving through the open lawn in restless bands. The meter senses agitation and care arriving together, as if the place is bracing itself while still making room for others.",
+    "voiceCount": 22,
+    "iconKey": "static"
+  },
+  {
+    "id": "riverwalk-bench-line",
+    "name": "Riverwalk Bench Line",
+    "latitude": 41.82182,
+    "longitude": -71.41483,
+    "weatherCategory": "Clear",
+    "descriptors": ["soft", "bright", "easeful"],
+    "forecast": "Clear skies are returning in the emotional field here. The meter catches an unforced quiet, with moments of warmth arriving lightly and staying just long enough to be felt.",
+    "voiceCount": 16,
+    "iconKey": "sun"
+  }
+]

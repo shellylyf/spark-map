@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emotional Weather Map</title>
+    <link rel="preconnect" href="https://api.mapbox.com" />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v3.20.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="map-shell" aria-label="Emotional weather map">
+        <div id="map"></div>
+        <div class="map-overlay"></div>
+
+        <div class="map-status map-status-left">
+          <p class="status-label">Current location</p>
+          <p class="status-value" id="current-location">Locating...</p>
+        </div>
+
+        <div class="map-status map-status-right" aria-live="polite">
+          <p class="status-label">Current time</p>
+          <p class="status-date" id="current-date">------</p>
+          <p class="status-value" id="current-time">--:--</p>
+        </div>
+
+        <aside class="live-meter-card" aria-live="polite">
+          <div class="live-meter-heading">
+            <p class="status-label">Live</p>
+            <p class="meter-name" id="live-meter-name">Waterplace Steps</p>
+          </div>
+          <p class="live-meter-fortune" id="live-meter-fortune">Waiting for Firebase...</p>
+          <p class="live-meter-voices" id="live-meter-voices">0 voices collected</p>
+          <p class="live-meter-sync" id="live-meter-sync">Connecting to Firebase</p>
+        </aside>
+      </section>
+    </main>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.20.0/mapbox-gl.js"></script>
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
