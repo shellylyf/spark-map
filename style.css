@@ -1,6 +1,6 @@
 :root {
-  --bg: #f4cac8;
-  --bg-deep: #efb7b5;
+  --bg: #e7d6d5;
+  --bg-deep: #cfb5b2;
   --surface: rgba(255, 247, 246, 0.9);
   --surface-strong: rgba(255, 250, 249, 0.96);
   --ink: #4f4341;
@@ -28,7 +28,7 @@ body {
   color: var(--ink);
   background:
     radial-gradient(circle at top left, rgba(255, 255, 255, 0.56), transparent 28%),
-    linear-gradient(180deg, #f7d6d4 0%, #efb8b6 100%);
+    linear-gradient(180deg, #e7d6d5 0%, #cfb5b2 100%);
 }
 
 button,
@@ -130,7 +130,7 @@ select {
   height: 78px;
   border: 0;
   padding: 0;
-  background: center / contain no-repeat url("./assets/pin-1.png");
+  background: center / contain no-repeat url("./assets/pin2.png");
   cursor: pointer;
   transition: transform 180ms ease, filter 180ms ease;
 }
@@ -151,7 +151,7 @@ select {
   position: absolute;
   inset: 2px 3px 5px;
   border-radius: 50% 50% 54% 54%;
-  background: center / contain no-repeat url("./assets/pin-1.png");
+  background: center / contain no-repeat url("./assets/pin2.png");
   filter: brightness(0.72) saturate(1.55) hue-rotate(-4deg);
   opacity: 0.42;
   transform-origin: 50% 72%;

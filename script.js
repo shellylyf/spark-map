@@ -3,10 +3,10 @@ const PROVIDENCE_CENTER = [-71.4128, 41.8238];
 const FIREBASE_DATABASE_URL = "https://emotional-weather-meter-default-rtdb.firebaseio.com";
 const FIREBASE_FORTUNES_PATH = "fortunes";
 const LIVE_METER_LOCATION_ID = "waterplace-steps";
-const LIVE_METER_LOCATION_NAME = "161 S Main St";
+const LIVE_METER_LOCATION_NAME = "Rhode Island Convention Center, 1 Sabin St";
 const LIVE_METER_COORDINATES = {
-  latitude: 41.822691,
-  longitude: -71.405362
+  latitude: 41.8244658,
+  longitude: -71.4170180
 };
 const PIN_ICON_WIDTH = 54;
 const PIN_ICON_HEIGHT = 78;
@@ -91,7 +91,7 @@ async function loadLocations() {
 }
 
 async function addLocationPins(locations) {
-  const pinImage = await loadMapImage("./assets/pin-1.png");
+  const pinImage = await loadMapImage("./assets/pin2.png");
   const demoPinImage = createPinImage(pinImage);
   const livePinImage = createPinImage(pinImage, {
     red: 156,
@@ -161,14 +161,10 @@ async function addLocationPins(locations) {
 
 function loadMapImage(url) {
   return new Promise((resolve, reject) => {
-    state.map.loadImage(url, (error, image) => {
-      if (error) {
-        reject(error);
-        return;
-      }
-
-      resolve(image);
-    });
+    const image = new Image();
+    image.onload = () => resolve(image);
+    image.onerror = () => reject(new Error("Unable to load image: " + url));
+    image.src = url;
   });
 }
 
